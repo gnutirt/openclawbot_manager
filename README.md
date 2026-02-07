@@ -8,7 +8,7 @@
 A professional Telegram bot designed to manage and monitor OpenClaw systems directly from your chat interface.
 *Một bot Telegram chuyên nghiệp giúp quản lý và giám sát hệ thống OpenClaw trực tiếp từ giao diện chat.*
 
-**Version:** 2026.02.07.07
+**Version:** 2026.02.07.08
 
 ## Core Features / Tính Năng Cốt Lõi
 

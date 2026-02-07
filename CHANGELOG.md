@@ -13,6 +13,13 @@ A professional Telegram bot designed to manage and monitor OpenClaw systems dire
 All notable changes to this project will be documented in this file.
 *Mọi thay đổi đáng chú ý của dự án sẽ được ghi lại trong file này.*
 
+## [2026.02.07.08] - 2026-02-07
+
+### Fixed / Sửa Lỗi
+
+- **Config BOM Issue**: Improved `read_config` utility to automatically handle UTF-8 with BOM (`utf-8-sig`) and other encodings. Fixed crash when editing config on Windows.
+  *Sửa lỗi BOM trong Config: Cải thiện tiện ích `read_config` để tự động xử lý UTF-8 có BOM (`utf-8-sig`) và các bảng mã khác. Khắc phục lỗi crash khi sửa config trên Windows.*
+
 ## [2026.02.07.07] - 2026-02-07
 
 ### Added / Thêm Mới

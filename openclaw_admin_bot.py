@@ -32,7 +32,7 @@ from telegram.ext import (
 )
 
 # --- PHẦN QUAN TRỌNG: FIX PATH ---
-VERSION = "2026.02.07.07"
+VERSION = "2026.02.07.08"
 
 def get_init_root():
     return Path(__file__).resolve().parent
@@ -383,8 +383,10 @@ def create_compressed_backup(target='system', mode='full', save_local=True, time
 
 def get_cliproxy_stats():
     """Lấy thống kê nhanh từ Management API của CLIProxy"""
-    url = CLIPROXY_URL
-    key = CLIPROXY_KEY
+    
+    # Load from config
+    url = config.get("API_KEYS", "CLIPROXY_MANAGEMENT_URL", fallback="http://127.0.0.1:8317/v0/management")
+    key = config.get("API_KEYS", "CLIPROXY_MANAGEMENT_KEY", fallback="")
     headers = {"Authorization": f"Bearer {key}"}
     stats_text = "\n📊 <b>CLIProxy Quick Stats:</b>\n"
     try:
@@ -719,22 +721,29 @@ async def ai_command(update: Update, context: ContextTypes.DEFAULT_TYPE, is_refr
 
     now = get_vietnam_time()
     
+    ws_list_str = config.get("SYSTEM", "WORKSPACES", fallback="Chưa cấu hình")
+    masked_url = CLIPROXY_URL[:15] + "..." if CLIPROXY_URL else "Chưa thiết lập"
+    
     keyboard = [
         [InlineKeyboardButton("🚀 Update Openclaw", callback_data="menu_update")],
         [InlineKeyboardButton("📊 System Report", callback_data="report")],
             [InlineKeyboardButton("💾 Backup & Restore", callback_data="menu_backup")],
             [InlineKeyboardButton("📁 FileStation", callback_data="menu_fs_list")],
-            [InlineKeyboardButton("🔧 Settings", callback_data="menu_settings")],
         [InlineKeyboardButton("🛠 Model Manual", callback_data="menu_manual")],
         [InlineKeyboardButton("🎲 Model Random", callback_data="menu_random")],
+        [InlineKeyboardButton("🌐 Gateway Control", callback_data="menu_gateway")],
         [InlineKeyboardButton("ℹ️ Info List", callback_data="menu_info")],
         [InlineKeyboardButton("💻 Manual Shell Cmd", callback_data="start_manual_mode")],
     ]
     menu_msg = (
         "🤖 <b>OPENCLAW ADMIN MENU</b>\n"
-        f"<i>Version: {VERSION}</i>\n"
+        f"Version: {VERSION}\n"
         "━━━━━━━━━━━━━━━━━━━━\n"
         f"🕒 <i>Last Active: {now}</i>\n"
+        "━━━━━━━━━━━━━━━━━━━━\n"
+        f"📂 <b>Root:</b> <code>{ROOT}</code>\n"
+        f"📁 <b>Workspaces:</b> <code>{ws_list_str}</code>\n"
+        f"🌐 <b>CLIProxy:</b> <code>{masked_url}</code>\n"
         "━━━━━━━━━━━━━━━━━━━━\n"
         "Chọn lệnh bạn muốn thực thi:\n"
     )
@@ -824,6 +833,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         keyboard = [[InlineKeyboardButton("◀️ Quay về", callback_data="back_main")]]
         await query.edit_message_text(report_msg, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode='HTML')
         return
+
 
     # --- MENU BACKUP MỚI (v2026.02.07.05) ---
     if callback_data == "menu_backup":
@@ -1335,17 +1345,18 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 
         except Exception as e:
             await query.edit_message_text(f"❌ <b>Lỗi Restore:</b> {e}", parse_mode='HTML')
-        return
-
-        if ok:
-            await query.message.edit_text(f"✅ <b>RESTORE THÀNH CÔNG!</b>\n{msg}", parse_mode='HTML')
-        else:
-            await query.message.edit_text(f"❌ <b>RESTORE THẤT BẠI:</b>\n{msg}", parse_mode='HTML')
-        
-        # Cleanup
-        if os.path.exists(file_path): os.remove(file_path)
-        context.user_data.pop('pending_restore_path', None)
-        context.user_data.pop('pending_restore_is_full', None)
+        finally:
+            # Cleanup: Luôn chạy để đảm bảo không sót file temp trên VPS
+            if file_path and os.path.exists(file_path):
+                try:
+                    os.remove(file_path)
+                    logger.info(f"🗑️ Đã dọn dẹp file tạm: {file_path}")
+                except Exception as ex:
+                    logger.error(f"❌ Lỗi dọn dẹp file {file_path}: {ex}")
+            context.user_data.pop('pending_restore_path', None)
+            context.user_data.pop('pending_restore_is_full', None)
+            context.user_data.pop('pending_restore_mode', None)
+            context.user_data.pop('pending_restore_workspace', None)
         return
     if callback_data == "act_tg_restore_cancel":
         file_path = context.user_data.get('pending_restore_path')

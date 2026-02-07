@@ -4,9 +4,22 @@ docker/cliproxy-api/logs/*.log
 bot_session.session
 script/__pycache__
 __pycache__/
-# backup/
-# *.tar.gz
-# *.gz
-# *.json.backup
+
+# Backups
+backup/
+*.tar.gz
+*.gz
+*.json.backup
+
+# Configuration
 config/config.cfg
+config/config.cfg.backup
 !config/config.cfg.example
+
+# Docs/Secrets
+docs/API_Key.config
+
+# Docker sensitive data
+docker/antigravity-manager/data/gui_config.json
+docker/cliproxy-api/config.yaml
+

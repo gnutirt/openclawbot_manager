@@ -16,23 +16,19 @@ def read_config(path: str = "config/config.cfg"):
         print(f"⚠️ Warning: Configuration file not found at: {path}")
         return cfg
 
-    try:
-        # Thử đọc với UTF-8 (Ưu tiên)
-        with codecs.open(path, "r", "utf-8") as f:
-            cfg.read_file(f)
-    except (UnicodeDecodeError, Exception):
+    # Danh sách encoding thử nghiệm (quan trọng: utf-8-sig để bỏ qua BOM)
+    encodings = ['utf-8-sig', 'utf-8', 'cp1252', 'latin-1']
+
+    for encoding in encodings:
         try:
-            # Nếu lỗi, thử lại với CP1252 (ANSI)
-            with codecs.open(path, "r", "cp1252") as f:
+            # Thử đọc với encoding hiện tại
+            with codecs.open(path, "r", encoding) as f:
                 cfg.read_file(f)
+            return cfg
         except (UnicodeDecodeError, Exception):
-            try:
-                # Fallback cuối cùng: latin-1 (tương thích Linux)
-                with codecs.open(path, "r", "latin-1") as f:
-                    cfg.read_file(f)
-            except Exception as e:
-                print(f"❌ Error: Could not read config file: {e}")
+            continue
             
+    print(f"❌ Error: Could not read config file {path} with any supported encoding.")
     return cfg
 
 def get_config_value(cfg, section: str, key: str, default: any = None):
