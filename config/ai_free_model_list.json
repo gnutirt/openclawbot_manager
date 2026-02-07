@@ -1,0 +1,1058 @@
+[
+    {
+        "id": "openrouter/free",
+        "name": "Free Models Router",
+        "provider": "openrouter",
+        "modelRef": "openrouter/openrouter/free",
+        "contextLength": 200000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 17,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "stepfun/step-3.5-flash:free",
+        "name": "StepFun: Step 3.5 Flash (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/stepfun/step-3.5-flash:free",
+        "contextLength": 256000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "arcee-ai/trinity-large-preview:free",
+        "name": "Arcee AI: Trinity Large Preview (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/arcee-ai/trinity-large-preview:free",
+        "contextLength": 131000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 7,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "upstage/solar-pro-3:free",
+        "name": "Upstage: Solar Pro 3 (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/upstage/solar-pro-3:free",
+        "contextLength": 128000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "liquid/lfm-2.5-1.2b-thinking:free",
+        "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/liquid/lfm-2.5-1.2b-thinking:free",
+        "contextLength": 32768,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 12,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 1.2,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "liquid/lfm-2.5-1.2b-instruct:free",
+        "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+        "contextLength": 32768,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 10,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 1.2,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "allenai/molmo-2-8b:free",
+        "name": "AllenAI: Molmo2 8B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/allenai/molmo-2-8b:free",
+        "contextLength": 36864,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 8,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
+        "contextLength": 256000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 30,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "arcee-ai/trinity-mini:free",
+        "name": "Arcee AI: Trinity Mini (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/arcee-ai/trinity-mini:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 10,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "tngtech/tng-r1t-chimera:free",
+        "name": "TNG: R1T Chimera (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/tngtech/tng-r1t-chimera:free",
+        "contextLength": 163840,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 15,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/nvidia/nemotron-nano-12b-v2-vl:free",
+        "contextLength": 128000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 12,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+        "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/qwen/qwen3-next-80b-a3b-instruct:free",
+        "contextLength": 262144,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 80,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "nvidia/nemotron-nano-9b-v2:free",
+        "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+        "contextLength": 128000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 10,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 9,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "openai/gpt-oss-120b:free",
+        "name": "OpenAI: gpt-oss-120b (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/openai/gpt-oss-120b:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 120,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "openai/gpt-oss-20b:free",
+        "name": "OpenAI: gpt-oss-20b (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/openai/gpt-oss-20b:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 20,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "z-ai/glm-4.5-air:free",
+        "name": "Z.AI: GLM 4.5 Air (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/z-ai/glm-4.5-air:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 7,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "qwen/qwen3-coder:free",
+        "name": "Qwen: Qwen3 Coder 480B A35B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/qwen/qwen3-coder:free",
+        "contextLength": 262000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 9,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 480,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "name": "Venice: Uncensored (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "contextLength": 32768,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 9,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 24,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "google/gemma-3n-e2b-it:free",
+        "name": "Google: Gemma 3n 2B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/google/gemma-3n-e2b-it:free",
+        "contextLength": 8192,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 2,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "tngtech/deepseek-r1t2-chimera:free",
+        "name": "TNG: DeepSeek R1T2 Chimera (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/tngtech/deepseek-r1t2-chimera:free",
+        "contextLength": 163840,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "deepseek/deepseek-r1-0528:free",
+        "name": "DeepSeek: R1 0528 (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/deepseek/deepseek-r1-0528:free",
+        "contextLength": 163840,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 7,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "google/gemma-3n-e4b-it:free",
+        "name": "Google: Gemma 3n 4B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/google/gemma-3n-e4b-it:free",
+        "contextLength": 8192,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 8,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 4,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "qwen/qwen3-4b:free",
+        "name": "Qwen: Qwen3 4B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/qwen/qwen3-4b:free",
+        "contextLength": 40960,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 13,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 4,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "tngtech/deepseek-r1t-chimera:free",
+        "name": "TNG: DeepSeek R1T Chimera (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/tngtech/deepseek-r1t-chimera:free",
+        "contextLength": 163840,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": null,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "name": "Mistral: Mistral Small 3.1 24B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/mistralai/mistral-small-3.1-24b-instruct:free",
+        "contextLength": 128000,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 24,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "google/gemma-3-4b-it:free",
+        "name": "Google: Gemma 3 4B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/google/gemma-3-4b-it:free",
+        "contextLength": 32768,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 6,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 4,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "google/gemma-3-12b-it:free",
+        "name": "Google: Gemma 3 12B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/google/gemma-3-12b-it:free",
+        "contextLength": 32768,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 5,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 12,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "google/gemma-3-27b-it:free",
+        "name": "Google: Gemma 3 27B (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/google/gemma-3-27b-it:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 27,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "meta-llama/llama-3.3-70b-instruct:free",
+        "name": "Meta: Llama 3.3 70B Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 11,
+        "supportsToolsMeta": true,
+        "modality": null,
+        "inferredParamB": 70,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "meta-llama/llama-3.2-3b-instruct:free",
+        "name": "Meta: Llama 3.2 3B Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/meta-llama/llama-3.2-3b-instruct:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 7,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 3,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "qwen/qwen-2.5-vl-7b-instruct:free",
+        "name": "Qwen: Qwen2.5-VL 7B Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/qwen/qwen-2.5-vl-7b-instruct:free",
+        "contextLength": 32768,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 5,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 7,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+        "name": "Nous: Hermes 3 405B Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/nousresearch/hermes-3-llama-3.1-405b:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 7,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 405,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    },
+    {
+        "id": "meta-llama/llama-3.1-405b-instruct:free",
+        "name": "Meta: Llama 3.1 405B Instruct (free)",
+        "provider": "openrouter",
+        "modelRef": "openrouter/meta-llama/llama-3.1-405b-instruct:free",
+        "contextLength": 131072,
+        "maxCompletionTokens": null,
+        "supportedParametersCount": 5,
+        "supportsToolsMeta": false,
+        "modality": null,
+        "inferredParamB": 405,
+        "createdAtMs": null,
+        "pricing": {
+            "prompt": 0,
+            "completion": 0,
+            "request": 0,
+            "image": 0,
+            "webSearch": 0,
+            "internalReasoning": 0
+        },
+        "isFree": true,
+        "tool": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        },
+        "image": {
+            "ok": false,
+            "latencyMs": null,
+            "skipped": true
+        }
+    }
+]

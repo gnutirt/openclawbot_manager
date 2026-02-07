@@ -1,0 +1,12 @@
+docker/cliproxy-api/auths/*.json
+docker/cliproxy-api/logs/
+docker/cliproxy-api/logs/*.log
+bot_session.session
+script/__pycache__
+__pycache__/
+# backup/
+# *.tar.gz
+# *.gz
+# *.json.backup
+config/config.cfg
+!config/config.cfg.example

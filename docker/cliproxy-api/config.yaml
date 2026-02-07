@@ -1,0 +1,45 @@
+# CLIProxyAPI Config for OpenClaw
+host: ""
+port: 8317
+remote-management:
+  allow-remote: true
+  secret-key: "$2a$10$kuNKDXh.Lhf9sdaC8F2k9e.eWmbusvJXeMbBMMCAzRwk4Vnww6oya"
+  disable-control-panel: false
+  panel-github-repository: https://github.com/router-for-me/Cli-Proxy-API-Management-Center
+api-keys:
+  - "YOUR_API_KEY_HERE"
+# Authentication directory inside container
+auth-dir: "/root/.cli-proxy-api"
+debug: false
+logging-to-file: true
+usage-statistics-enabled: true
+# Map ChatGPT Plus models to common IDs
+oatuh-model-alias:
+  codex:
+    - name: "gpt-4o"
+      alias: "chatgpt-plus-4o"
+    - name: "o1-preview"
+      alias: "chatgpt-plus-o1"
+oauth-model-alias:
+  antigravity:
+    - name: rev19-uic3-1p
+      alias: gemini-2.5-computer-use-preview-10-2025
+    - name: gemini-3-pro-image
+      alias: gemini-3-pro-image-preview
+    - name: gemini-3-pro-high
+      alias: gemini-3-pro-preview
+    - name: gemini-3-flash
+      alias: gemini-3-flash-preview
+    - name: claude-sonnet-4-5
+      alias: gemini-claude-sonnet-4-5
+    - name: claude-sonnet-4-5-thinking
+      alias: gemini-claude-sonnet-4-5-thinking
+    - name: claude-opus-4-5-thinking
+      alias: gemini-claude-opus-4-5-thinking
+pprof:
+  enable: false
+  addr: 127.0.0.1:8316
+error-logs-max-files: 10
+quota-exceeded:
+  switch-project: true
+  switch-preview-model: false

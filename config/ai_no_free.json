@@ -1,0 +1,119 @@
+{
+    "models": [
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/claude-opus-4-5-thinking",
+            "model_type": "claude"
+        },
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/claude-sonnet-4-5",
+            "model_type": "claude"
+        },
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/claude-sonnet-4-5-thinking",
+            "model_type": "claude"
+        },
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/gemini-3-flash",
+            "model_type": "gemini"
+        },
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/gemini-3-pro-high",
+            "model_type": "gemini"
+        },
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/gemini-3-pro-low",
+            "model_type": "gemini"
+        },
+        {
+            "service": "google-antigravity",
+            "full_path": "google-antigravity/gpt-oss-120b-medium",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5.2",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gemini-claude-sonnet-4-5",
+            "model_type": "claude"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gemini-3-flash-preview",
+            "model_type": "gemini"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5.1-codex-max",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5.2-codex",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-oss-120b-medium",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5-codex",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5-codex-mini",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5.1",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5.1-codex",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gpt-5.1-codex-mini",
+            "model_type": "gpt"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gemini-3-pro-image-preview",
+            "model_type": "gemini"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gemini-3-pro",
+            "model_type": "gemini"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gemini-2.5-flash",
+            "model_type": "gemini"
+        },
+        {
+            "service": "cliproxy",
+            "full_path": "cliproxy/gemini-2.5-flash-lite",
+            "model_type": "gemini"
+        }
+    ]
+}

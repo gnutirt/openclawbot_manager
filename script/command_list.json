@@ -1,0 +1,27 @@
+[
+  {
+    "command_alias": "/backup",
+    "command": "python3 script/backup_manager.py",
+    "Description": "💾 Sao lưu lên GitHub"
+  },
+  {
+    "command_alias": "/report",
+    "command": "internal",
+    "Description": "📅 Báo cáo chi tiết token và auth-files"
+  },
+  {
+    "command_alias": "/restore",
+    "command": "python3 script/restore_manager.py",
+    "Description": "♻️ Khôi phục bản mới nhất"
+  },
+  {
+    "command_alias": "/randomai_gemini",
+    "command": "python3 script/openclaw_set_gemini.py",
+    "Description": "🎲 Random Gemini"
+  },
+  {
+    "command_alias": "/random_ai_switch",
+    "command": "python3 script/openclaw_switchmodel.py",
+    "Description": "🎰 Random Cliproxy"
+  }
+]
